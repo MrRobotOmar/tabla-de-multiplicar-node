@@ -1,0 +1,33 @@
+node js --- docs
+node -v para saber el api
+const fs = require('fs');
+
+##hay tipos de requires
+paquetes nativos de node y pauetes que son creados por la comunidad y nuestros propos archivos que se reconocen
+por required(./fs)
+
+
+
+#Npm init para crear el .json de nuestro proyecto
+entry point (es el primer archivo que se ejecuta)
+
+#Hay tipos de instalaciones
+npm i yargas --save // se guarde de manera global
+npm install --save-dev nodemon  //se guarda localmente en este proyecto
+
+#Desistalar paquete
+np unistall nodemon // desistala el paquete
+
+#node app
+ejecuta la aplicacion
+#node app listar --base 5 // este comando recibe argumentos
+
+
+#node app --hep //muestra los diferentes comandos que se pueden ingresar dentro de la aplicacion
+
+
+
+################ MUY INTERESANTE PARA CREAR NUESTRAR PROPIAS LIBRERIAS PARA OPTIMIZAR PROCESOS #############
+
+#libreria de colores
+npm colors
